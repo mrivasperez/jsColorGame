@@ -1,5 +1,5 @@
 # jsColorGame: A simple, fun color game.
-by mrivasperez
+by mrivasperez. live demo: <https://mrivasperez.github.io/jsColorGame/>
 
 ## Description
 JS Color Game is a simple game developed using HTML, CSS, and Vanilla JS. I heavily commented the JS file to help it become a tool to help others learn the basics of the JS language.
