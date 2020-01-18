@@ -7,7 +7,7 @@ JS Color Game is a simple game developed using HTML, CSS, and Vanilla JS. I heav
 ## Installation
 To install the game, download the files as a zip file. Create a new folder in your system and drag and drop contents of the zip file to that folder. Double click "index.html" to begin the game. If you wish to view the heavily commented JS file to learn how I built the game and learn JS syntax open "script.js" using your preferred text editor.
 
-## Usage
+## How to Use
 The game involves two rows of 3 squares or one row of 3 squares based on user choice. The user must select the color that accurately matches the RGB color displayed in header. When the user chooses the correct color, all squares change to the selected color and the user can choose to play again.
 
 ## Credits
