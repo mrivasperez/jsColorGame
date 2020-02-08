@@ -65,18 +65,14 @@ resetBtn.addEventListener("click", function(){
 
 })
 
-//make sure colorDisplay shows picked color
 colorText()
 
-//beginning the game
 for (var i = 0; i < squares.length; i++){
-    // add colors to all squares
     squares[i].style.backgroundColor = colors[i];
-    // add click listeners to all squares
     squares[i].addEventListener("click", function(){
-        // id color of clicked square
-        var clickedColor = this.style.backgroundColor
-        // verify if clicked color === pickedColor
+
+        var clickedColor = this.style.backgroundColor;
+
         if(clickedColor === pickedColor){
             messageDisplay.textContent = "Correct!";
             changeColors(clickedColor);
